@@ -14,6 +14,8 @@
 		D94AAE3B2AC9587600D3BE61 /* Stithi2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94AAE3A2AC9587600D3BE61 /* Stithi2_0Tests.swift */; };
 		D94AAE452AC9587600D3BE61 /* Stithi2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94AAE442AC9587600D3BE61 /* Stithi2_0UITests.swift */; };
 		D94AAE472AC9587600D3BE61 /* Stithi2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94AAE462AC9587600D3BE61 /* Stithi2_0UITestsLaunchTests.swift */; };
+		D9502AE12ACEB8C6000D4048 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9502AE02ACEB8C6000D4048 /* LoginView.swift */; };
+		D9502AE52ACED0E0000D4048 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9502AE42ACED0E0000D4048 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D94AAE402AC9587600D3BE61 /* Stithi2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stithi2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94AAE442AC9587600D3BE61 /* Stithi2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stithi2_0UITests.swift; sourceTree = "<group>"; };
 		D94AAE462AC9587600D3BE61 /* Stithi2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stithi2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9502AE02ACEB8C6000D4048 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D9502AE42ACED0E0000D4048 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		D94AAE282AC9587500D3BE61 /* Stithi2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				D9502AE32ACED0CC000D4048 /* Extensions */,
+				D9502ADF2ACEB892000D4048 /* Views */,
 				D94AAE292AC9587500D3BE61 /* Stithi2_0App.swift */,
 				D94AAE2B2AC9587500D3BE61 /* ContentView.swift */,
 				D94AAE2D2AC9587600D3BE61 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				D94AAE462AC9587600D3BE61 /* Stithi2_0UITestsLaunchTests.swift */,
 			);
 			path = Stithi2.0UITests;
+			sourceTree = "<group>";
+		};
+		D9502ADF2ACEB892000D4048 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9502AE02ACEB8C6000D4048 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9502AE32ACED0CC000D4048 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9502AE42ACED0E0000D4048 /* String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9502AE12ACEB8C6000D4048 /* LoginView.swift in Sources */,
 				D94AAE2C2AC9587500D3BE61 /* ContentView.swift in Sources */,
+				D9502AE52ACED0E0000D4048 /* String.swift in Sources */,
 				D94AAE2A2AC9587500D3BE61 /* Stithi2_0App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
